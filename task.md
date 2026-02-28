@@ -1,0 +1,22 @@
+# Monday.com BI Agent Task List
+
+- [ ] Planning
+  - [ ] Write implementation plan and decision log template.
+  - [ ] Await user approval on the plan and Monday.com setup (API key, board IDs).
+- [ ] Setup & Configuration
+  - [ ] Initialize Python project (FastAPI/Streamlit).
+  - [ ] Create `.env` file structure for API keys.
+- [ ] Monday.com Integration
+  - [ ] Implement `monday_api.py` to handle GraphQL requests.
+  - [ ] Create functions to fetch board schema and raw board items.
+- [ ] AI Agent Development
+  - [ ] Set up LangChain/OpenAI agent.
+  - [ ] Create data fetching/cleaning tools for the agent.
+  - [ ] Implement query interpretation and follow-up logic.
+- [ ] Streamlit Interface
+  - [ ] Build chat interface.
+  - [ ] Integrate visible tool-call tracing (`st.status`).
+- [ ] Documentation & Deliverables
+  - [ ] Fill out Decision Log (`decision_log.md`).
+  - [ ] Create `README.md` with instructions.
+  - [ ] Package source code into ZIP.
